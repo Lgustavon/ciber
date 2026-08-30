@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eeeeee;
+    padding: 25px;
+}
+
+.pagina {
+    width: 2000px;
+    height: 2980px;
+    background: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 55px 70px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.1;
+    margin-bottom: 70px;
+}
+
+h1 span {
+    display: block;
+    color: #00a8ff;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.texto {
+    width: 1080px;
+    font-size: 22px;
+    line-height: 1.35;
+}
+
+.texto h2 {
+    font-size: 23px;
+    margin-bottom: 24px;
+}
+
+.texto h3 {
+    font-size: 21px;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+
+.texto p {
+    margin-bottom: 17px;
+}
+
+.texto ul {
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 28px;
+}
+
+.texto li {
+    margin-bottom: 5px;
+}
+
+.imagens {
+    width: 690px;
+    margin-top: 55px;
+}
+
+.imagens img {
+    display: block;
+    width: 690px;
+    height: 390px;
+    object-fit: cover;
+    margin-bottom: 38px;
+    border-radius: 30px;
+}
+
+.voltar {
+    display: block;
+    width: 75px;
+    padding: 10px 5px;
+    background: #009ee3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-top: -10px;
+}
